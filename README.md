@@ -38,8 +38,8 @@ Unduh Aplikasi Termux Nya Dibawah Ini
 
 [![Open Source Love](https://badges.frapsoft.com/os/v3/open-source.svg?v=102)](https://github.com/ellerbrock/open-source-badge/)
 
-A tool to monitor, analyze and limit the bandwidth (upload/download) of devices on your local network without physical or administrative access.<br>
-```evillimiter``` employs [ARP spoofing](https://en.wikipedia.org/wiki/ARP_spoofing) and [traffic shaping](https://en.wikipedia.org/wiki/Traffic_shaping) to throttle the bandwidth of hosts on the network.
+Sebuah alat untuk memantau, menganalisis, dan membatasi bandwidth (unggah/unduh) perangkat di jaringan lokal Anda tanpa akses fisik atau administratif.<br>
+```evillimiter``` Menggunakan [ARP spoofing](https://en.wikipedia.org/wiki/ARP_spoofing) dan [traffic shaping](https://en.wikipedia.org/wiki/Traffic_shaping) Untuk Membatasi Bandwidth host Dijaringan.
 
 **Searching for a Windows-compatible version?**<br>
 Check out the open-source alternative [EvilLimiter for Windows](https://github.com/bitbrute/evillimiter-windows).
