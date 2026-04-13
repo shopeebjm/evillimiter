@@ -100,9 +100,9 @@ Type ```evillimiter``` or ```python3 bin/evillimiter``` to run the tool.
 | ```quit``` | Quits the application.
 | ```?```, ```help``` | Displays command information similar to this one.
 
-## Restrictions
+## Pembatasan
 
-- **Limits IPv4 connctions only**, since [ARP spoofing](https://en.wikipedia.org/wiki/ARP_spoofing) requires the ARP packet that is only present  on IPv4 networks.
+- **Membatasi Koneksi IPv4 Saja**, since [ARP spoofing](https://en.wikipedia.org/wiki/ARP_spoofing) Karena ARP Spoofing Memerlukan Paket ARP Yang Hanya Ada Di Jaringan IPv4
 
 ## Disclaimer
 [Evil Limiter](https://github.com/shopeebjm/evillimiter) is provided by [shopeebjm](https://github.com/shopeebjm) "sebagaimana adanya" dan "dengan segala kekurangannya". Penyedia tidak memberikan pernyataan atau jaminan apa pun mengenai keamanan, kesesuaian, ketiadaan virus, ketidakakuratan, kesalahan tipografi, atau komponen berbahaya lainnya dari perangkat lunak ini. Terdapat bahaya yang melekat dalam penggunaan perangkat lunak apa pun, dan Anda sepenuhnya bertanggung jawab untuk menentukan apakah Evil Limiter kompatibel dengan peralatan Anda dan perangkat lunak lain yang terpasang pada peralatan Anda. Anda juga sepenuhnya bertanggung jawab atas perlindungan peralatan Anda dan pencadangan data Anda, dan penyedia tidak akan bertanggung jawab atas kerugian apa pun yang mungkin Anda derita sehubungan dengan penggunaan, modifikasi, atau pendistribusian perangkat lunak ini. 
