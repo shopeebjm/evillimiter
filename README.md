@@ -82,9 +82,9 @@ Ketik ```evillimiter``` Atau ```python3 bin/evillimiter``` Untuk Menjalankan Too
 
 | Command | Penjelasan |
 | ------- | ----------- |
-| ```scan (--range [IP Range])``` | Scans your network for online hosts. One of the first things to do after start.<br>```--range``` lets you specify a custom IP range.<br>For example: ```scan --range 192.168.178.1-192.168.178.40``` or just ```scan``` to scan the entire subnet.
-| ```hosts (--force)``` | Displays all the hosts/devices previously scanned and basic information. Shows ID for each host that is required for interaction.<br>```--force``` forces the table to be shown, even when it doesn't fit the terminal.
-| ```limit [ID1,ID2,...] [Rate] (--upload) (--download)``` | Limits bandwidth of host(s) associated to specified ID. Rate determines the internet speed.<br>```--upload``` limits outgoing traffic only.<br>```--download``` limits incoming traffic only.<br>Valid rates: ```bit```, ```kbit```, ```mbit```, ```gbit```<br>For example: ```limit 4,5,6 200kbit``` or ```limit all 1gbit```
+| ```scan (--range [IP Range])``` | Memindai Jaringan Anda Untuk Host Online. Salah Satu Hal Pertama Yang Dilakukan Setelah Memulai.<br>```--range``` Memungkinkan Anda Menentukan Rentang IP Khusus Misalnya.<br>: ```scan --range 192.168.178.1-192.168.178.40``` Atau Hanya ```scan``` Untuk Memindai Seluruh subnet.
+| ```hosts (--force)``` | Menampilkan Semua Host/Perangkat Yang Sebelumnya Dipindai Dan Informasi Dasar.Menunjukkan ID Untuk Setiap Host Yang Diperlukan Untuk Interaksi.<br>```--force``` Memaksa Tabel Untuk Ditampilkan,Bahkan Ketika Tidak Muat Di Terminal.
+| ```limit [ID1,ID2,...] [Rate] (--upload) (--download)``` | Membatasi Bandwidth Atau Host(s) associated to specified ID. Rate determines the internet speed.<br>```--upload``` limits outgoing traffic only.<br>```--download``` limits incoming traffic only.<br>Valid rates: ```bit```, ```kbit```, ```mbit```, ```gbit```<br>For example: ```limit 4,5,6 200kbit``` or ```limit all 1gbit```
 | ```block [ID1,ID2,...] (--upload) (--download)``` | Blocks internet connection of host(s) associated to specified ID.<br>```--upload``` limits outgoing traffic only <br>```--download``` limits incoming traffic only.
 | ```free [ID1,ID2,...]``` | Unlimits/Unblocks host(s) associated to specified ID. Removes all further restrictions.
 | ```add [IP] (--mac [MAC])``` | Adds custom host to host list. MAC-Address will be resolved automatically or can be specified manually.<br>For example: ```add 192.168.178.24``` or ```add 192.168.1.50 --mac 1c:fc:bc:2d:a6:37```
