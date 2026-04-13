@@ -74,13 +74,13 @@ Ketik ```evillimiter``` Atau ```python3 bin/evillimiter``` Untuk Menjalankan Too
 | ```-i [Interface Name]``` | Menemukan Antarmuka Jaringan (Akan Ditentukan Jika Tidak Ditentukan)|
 | ```-g [Gateway IP Address]``` | Menentukan Alamat IP Gateway  (Akan Diresolusi Jika Tidak Ditentukan)|
 | ```-m [Gateway MAC Address]``` | Menentukan Alamat MAC Gateway (Akan Diresolusi Jika Tidak Ditentukan)|
-| ```-n [Netmask Address]``` | Specifies netmask (resolved if not specified)|
-| ```-f``` | Flushes current iptables and tc configuration. Ensures that packets are dealt with correctly.|
-| ```--colorless``` | Disables colored output |
+| ```-n [Netmask Address]``` | Menentukan Netmask (Akan Diresolusi Jika Tidak Ditentukan)|
+| ```-f``` | Menghapus Konfigurasi iptables Dan tc Saat Ini.Memastikan Bahwa Paket Ditangani Dengan Benar.|
+| ```--colorless``` | Menonaktifkan Output Berwarna |
 
 #### ```evillimiter``` Commands
 
-| Command | Explanation |
+| Command | Penjelasan |
 | ------- | ----------- |
 | ```scan (--range [IP Range])``` | Scans your network for online hosts. One of the first things to do after start.<br>```--range``` lets you specify a custom IP range.<br>For example: ```scan --range 192.168.178.1-192.168.178.40``` or just ```scan``` to scan the entire subnet.
 | ```hosts (--force)``` | Displays all the hosts/devices previously scanned and basic information. Shows ID for each host that is required for interaction.<br>```--force``` forces the table to be shown, even when it doesn't fit the terminal.
