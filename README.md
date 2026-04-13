@@ -64,7 +64,7 @@ Alternatifnya, Anda Dapat Mengunduh Versi Yang Diinginkan Dari [Release page](ht
 
 Ketik ```evillimiter``` Atau ```python3 bin/evillimiter``` Untuk Menjalankan Tools Ini.
 
-```evillimiter``` Akan Mencoba Untuk Menyelesaikan Informasi Yang Dibutuhkan (network interface, netmask, gateway address, ...) Dengan Sendirinya, Secara Otomatis.
+```evillimiter``` Akan Mencoba Untuk Menyelesaikan Informasi Yang Dibutuhkan (network interface, netmask, gateway address) Dengan Sendirinya, Secara Otomatis.
 
 #### Command-Line Arguments
 
