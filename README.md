@@ -94,9 +94,9 @@ Ketik ```evillimiter``` Atau ```python3 bin/evillimiter``` Untuk Menjalankan Too
 | ```watch add [ID1,ID2,...]``` | Menambahkan Host Yang Ditentukan Ke daftar Pantauan.<br>Misalnya: ```watch add 6,7,8```
 | ```watch remove [ID1,ID2,...]``` | Menghapus Host Yang Ditentukan Dari Daftar Pantauan.<br>Misalnya: ```watch remove all```
 | ```watch set [Attribute] [Value]``` | Mengubah Pengaturan Pemantaun Saat Ini.Atribut Berikut Dapat Di Ubah:<br>```range``` Adalah Rentang IP Yang Akan Dipindai Untuk Koneksi Ulang.<br>```interval``` Adalah Waktu Tunggu Antara Setiap Pemindaian Jaringan (Dalam Detik).<br>Misalnya: ```watch set interval 120```
-| ```clear``` | Clears the terminal window.
-| ```quit``` | Quits the application.
-| ```?```, ```help``` | Displays command information similar to this one.
+| ```clear``` | Membersihkan Jendela Terminal.
+| ```quit``` | Menutup Aplikasi.
+| ```?```, ```help``` | Menampilkan Informasi Perintah Yang Mirip Dengan ini
 
 ## Pembatasan
 
