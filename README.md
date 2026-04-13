@@ -41,30 +41,30 @@ Unduh Aplikasi Termux Nya Dibawah Ini
 Sebuah alat untuk memantau, menganalisis, dan membatasi bandwidth (unggah/unduh) perangkat di jaringan lokal Anda tanpa akses fisik atau administratif.<br>
 ```evillimiter``` Menggunakan [ARP spoofing](https://en.wikipedia.org/wiki/ARP_spoofing) dan [traffic shaping](https://en.wikipedia.org/wiki/Traffic_shaping) Untuk Membatasi Bandwidth host Dijaringan.
 
-**Searching for a Windows-compatible version?**<br>
-Check out the open-source alternative [EvilLimiter for Windows](https://github.com/bitbrute/evillimiter-windows).
+**Mencari Versi Yang Kompatibel Dengan Windows?**<br>
+Coba Alternatif Open-Source [EvilLimiter for Windows](https://github.com/bitbrute/evillimiter-windows).
 
-## Requirements
-- Linux distribution
-- Python 3 or greater
+## Persyaratan
+- Distribusi Linux
+- Python 3 Atau Lebih Tinggi
 
-Possibly missing python packages will be installed during the installation process.
+Paket Python Yang Mungkin Hilang Akan Diinstall Selama Proses Installasi
 
-## Installation
+## Installasi
 
 ```bash
-git clone https://github.com/bitbrute/evillimiter.git
+git clone https://github.com/shopeebjm/evillimiter.git
 cd evillimiter
 sudo python3 setup.py install
 ```
 
-Alternatively, you can download a desired version from the [Release page](https://github.com/bitbrute/evillimiter/releases).<br>
+Alternatifnya, Anda Dapat Mengunduh Versi Yang Diinginkan Dari [Release page](https://github.com/shopeebjm/evillimiter/releases).<br>
 
-## Usage
+## Penggunaan
 
-Type ```evillimiter``` or ```python3 bin/evillimiter``` to run the tool.
+Ketik ```evillimiter``` Atau ```python3 bin/evillimiter``` Untuk Menjalankan Tools Ini.
 
-```evillimiter``` will try to resolve required information (network interface, netmask, gateway address, ...) on its own, automatically.
+```evillimiter``` Akan Mencoba Untuk Menyelesaikan Informasi Yang Dibutuhkan (network interface, netmask, gateway address, ...) on its own, automatically.
 
 #### Command-Line Arguments
 
