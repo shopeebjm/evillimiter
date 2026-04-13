@@ -64,16 +64,16 @@ Alternatifnya, Anda Dapat Mengunduh Versi Yang Diinginkan Dari [Release page](ht
 
 Ketik ```evillimiter``` Atau ```python3 bin/evillimiter``` Untuk Menjalankan Tools Ini.
 
-```evillimiter``` Akan Mencoba Untuk Menyelesaikan Informasi Yang Dibutuhkan (network interface, netmask, gateway address, ...) on its own, automatically.
+```evillimiter``` Akan Mencoba Untuk Menyelesaikan Informasi Yang Dibutuhkan (network interface, netmask, gateway address, ...) Dengan Sendirinya, Secara Otomatis.
 
 #### Command-Line Arguments
 
-| Argument | Explanation |
+| Argumen | Penjelasan |
 | -------- | ----------- |
-| ```-h``` | Displays help message listing all command-line arguments |
-| ```-i [Interface Name]``` | Specifies network interface (resolved if not specified)|
-| ```-g [Gateway IP Address]``` | Specifies gateway IP address (resolved if not specified)|
-| ```-m [Gateway MAC Address]``` | Specifies gateway MAC address (resolved if not specified)|
+| ```-h``` | Menampilkan Pesan Bantuan Yang Mencantumkan Semua Argumen Baris Perintah |
+| ```-i [Interface Name]``` | Menemukan Antarmuka Jaringan (Akan Ditentukan Jika Tidak Ditentukan)|
+| ```-g [Gateway IP Address]``` | Menentukan Alamat IP Gateway  (Akan Diresolusi Jika Tidak Ditentukan)|
+| ```-m [Gateway MAC Address]``` | Menentukan Alamat MAC Gateway (Akan Diresolusi Jika Tidak Ditentukan)|
 | ```-n [Netmask Address]``` | Specifies netmask (resolved if not specified)|
 | ```-f``` | Flushes current iptables and tc configuration. Ensures that packets are dealt with correctly.|
 | ```--colorless``` | Disables colored output |
