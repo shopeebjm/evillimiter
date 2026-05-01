@@ -44,12 +44,24 @@ Coba Alternatif Open-Source [EvilLimiter for Windows](https://github.com/bitbrut
 
 Paket Python Yang Mungkin Hilang Akan Diinstall Selama Proses Installasi
 
-## Installasi
+## Command Prompt On Termux
 
-```bash
-git clone https://github.com/shopeebjm/evillimiter.git
-cd evillimiter
-sudo python3 setup.py install
+```
+$ apt update && apt upgrade -y
+```
+$ apt install git -y
+```
+```
+$ apt install python
+```
+```
+$ git clone https://github.com/shopeebjm/evillimiter.git
+```
+```
+$ cd evillimiter
+```
+```
+$ python3 setup.py install
 ```
 
 Alternatifnya, Anda Dapat Mengunduh Versi Yang Diinginkan Dari [Release page](https://github.com/shopeebjm/evillimiter/releases).<br>
