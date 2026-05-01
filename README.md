@@ -53,6 +53,9 @@ $ apt update && apt upgrade -y
 $ apt install git -y
 ```
 ```
+$ apt install tsu
+```
+```
 $ apt install python3
 ```
 ```
@@ -62,7 +65,7 @@ $ git clone https://github.com/shopeebjm/evillimiter.git
 $ cd evillimiter
 ```
 ```
-$ python3 setup.py install
+$ sudo python3 setup.py install
 ```
 
 Alternatifnya, Anda Dapat Mengunduh Versi Yang Diinginkan Dari [Release page](https://github.com/shopeebjm/evillimiter/releases).<br>
