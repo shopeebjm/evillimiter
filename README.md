@@ -49,6 +49,7 @@ Paket Python Yang Mungkin Hilang Akan Diinstall Selama Proses Installasi
 ```
 $ apt update && apt upgrade -y
 ```
+```
 $ apt install git -y
 ```
 ```
