@@ -53,7 +53,7 @@ $ apt update && apt upgrade -y
 $ apt install git -y
 ```
 ```
-$ apt install python
+$ apt install python3
 ```
 ```
 $ git clone https://github.com/shopeebjm/evillimiter.git
